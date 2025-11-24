@@ -41,8 +41,8 @@ jobs:
          echo $WORKFLOW_VAR
          echo $JOB_VAR
          echo $STEP_VAR
-         echo "The following is a secret: ${{ secrets.SOME_SECRET }}, of course this wont be displayed in the job logs
-         echo "The following are default predefined environment variables"
+         echo "The following is a secret: ${{ secrets.SOME_SECRET }}, of course this wont be displayed in the job logs"
+         echo "The following are default (predefined) environment variables"
          echo $GITHUB_ACTOR
          echo $GITHUB_JOB
          echo $GITHUB_REF
